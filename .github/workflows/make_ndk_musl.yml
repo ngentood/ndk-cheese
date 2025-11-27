@@ -10,8 +10,8 @@ on:
         type: string
       revision:
         description: "NDK Release revision:"
-        default: '-beta4'
-        required: true
+        default: ''
+        required: false
         type: string
 
 jobs:
